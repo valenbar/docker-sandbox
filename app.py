@@ -13,3 +13,5 @@ if var2 == None:
 # check if there is a directory called "data"
 if os.path.isdir("data"):
     print("data is a directory")
+    for file in os.listdir("data"):
+        print(file)
