@@ -6,4 +6,4 @@ services:
     volumes:
       - ./data:/data
     environment:
-      - MY_VAR = "foo"
+      - MY_VAR = foo
