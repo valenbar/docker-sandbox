@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 
 # load_dotenv()
 
-var = os.getenv('MY_VAR')
-var2 = os.getenv('MY_VAR2')
+# var = os.getenv('MY_VAR')
+# var2 = os.getenv('MY_VAR2')
 var = os.environ.get("MY_VAR")
 var2 = os.environ.get("MY_VAR2")
 
