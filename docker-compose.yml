@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  docker-sandbox:
+    image: docker-sandbox
+    build: .
+    environment:
+      - MY_VAR=foo
