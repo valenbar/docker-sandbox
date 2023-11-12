@@ -1,9 +1,9 @@
 version: '3.7'
 services:
   docker-sandbox:
-    volumes:
-      - ./data:/data
     build: https://github.com/valenbar/docker-sandbox.git
     container_name: docker-sandbox
+    volumes:
+      - ./data:/data
     environment:
       - MY_VAR=foo
