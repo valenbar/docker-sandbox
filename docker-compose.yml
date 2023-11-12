@@ -4,4 +4,4 @@ services:
     image: docker-sandbox
     build: .
     environment:
-      - MY_VAR=foo
+      - MY_VAR = foo
