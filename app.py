@@ -9,3 +9,7 @@ print("MY_VAR: ", var)
 print("MY_VAR2: ", var2)
 if var2 == None:
     print("MY_VAR2 is None")
+
+# check if there is a directory called "data"
+if os.path.isdir("data"):
+    print("data is a directory")
